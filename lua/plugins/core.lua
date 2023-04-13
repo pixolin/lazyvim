@@ -1,13 +1,6 @@
 return {
 
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
-
-  {
     "catppuccin",
     opts = {
       integrations = {
@@ -69,10 +62,5 @@ return {
         CursorLine = { bg = "#585B70" },
       },
     },
-  },
-
-  {
-    "tokyonight.nvim",
-    enabled = false,
   },
 }
